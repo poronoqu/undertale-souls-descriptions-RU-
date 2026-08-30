@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'underfont';
+    src: url('Undertale-Battle-Font.ttf') format('truetype');
+}
+body {
+    font-family: 'underfont';
+    display: flex;             
+    flex-direction: column;    
+    align-items: center;      
+    text-align: center;                       
+    padding: 20px;  
+    image-rendering: pixelated;
+    margin: 50px;
+}
+h1 {
+    color: red;
+    font-size: 500%;
+    text-shadow:
+    -3px -3px 0 black,
+    3px -3px 0 black,
+    -3px 3px 0 black,
+    -3px 3px 0 black;
+}
+p {
+    font-size: larger;
+    max-width: 100%;
+}
+ul {
+    font-size: x-large;
+}
+.penic {
+    width: 90%;
+    margin: 40px auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    background-image: url('download.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cian {
+    width: 140px;
+}
+.cianhart {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    gap: 8px;
+}
+.oranj {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 8px;
+}
+.orang {
+   order: 3;
+   width: 145px;
+   align-self: flex-end;
+}
+.org {
+    order: 2;
+}
+.bubu {
+    width: 187px;
+}
+.imblue {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+.pup {
+    width: 156px;
+    justify-content: flex-end;
+}
+.pupl {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    gap: 5px;
+}
+.gingin {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    gap: 8px;
+}
+.gi {
+    width: 161px;
+}
+.cho {
+    max-width: 150px; width: 100%;
+}
+.re {
+    width: 350px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
